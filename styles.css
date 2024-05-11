@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Krylon';
+    src: url('Krylon.otf') format('opentype'); 
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krylon', sans-serif;
+}
+
+
+.headerWrapper{
+    display: flex;
+    margin: 0% 39px;
+    align-items: center;
+}
+
+.column { 
+    flex:1; 
+}
+
+.headerWrapper #navigationMenu {
+    text-align: right; 
+    flex: 2;
+}
+
+#logo
+{
+    margin: 0px;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+}
+
+.btn {
+
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+
+}
+
+
+.btn:hover {
+background-color: #E76666;
+color: #210400;
+cursor: pointer;
+transition: 0.2s;
+
+}
+header{
+    background-image: url("HeaderIMG.png");
+    height: 100vh;
+    text-align: center;
+    
+}
+
+#jars {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#tagline {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.cta {
+background-color: #0F555F;
+color: white;
+text-align: center;
+font-size: 32px;
+padding: 10px 20px;
+margin: 30px;
+}
+
+.cta:hover {
+    background-color: #FF543E;
+    color: #2E0404;
+}
+
+.active {
+    background-color: #C61700 !important;
+    color: #2E0404
+    ;
+}
